@@ -1,0 +1,44 @@
+[
+  {
+    "id": "disney-lorcana-fabled-portfolio-lorcana-player",
+    "name": "Fabled Portfolio",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/07/Disney-Lorcana-Fabled-Portfolio-Lorcana-Player.jpg.webp",
+    "set": "Fabled"
+  },
+  {
+    "id": "disney-lorcana-premium-card-portfolio-back-4-lorcana-player",
+    "name": "Premium Card Portfolio - Back 4",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/10/Disney-Lorcana-Premium-Card-Portfolio-Back-4-Lorcana-Player.jpg.webp",
+    "set": "Other"
+  },
+  {
+    "id": "disney-lorcana-set-5-shimmering-skies-cardback-folio-front",
+    "name": "Set 5 Shimmering Skies - Cardback Folio Front",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/06/Disney-Lorcana-Set-5-Shimmering-Skies-Cardback-Folio-Front.jpg.webp",
+    "set": "Shimmering Skies"
+  },
+  {
+    "id": "disney-lorcana-set-5-shimmering-skies-nicholas-kole-folio-front",
+    "name": "Set 5 Shimmering Skies - Nicholas Kole Folio Front",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/06/Disney-Lorcana-Set-5-Shimmering-Skies-Nicholas-Kole-Folio-Front.jpg.webp",
+    "set": "Shimmering Skies"
+  },
+  {
+    "id": "disney-lorcana-portfolio-bundle",
+    "name": "Portfolio Bundle",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/03/Disney-Lorcana-Portfolio-Bundle-Lorcana-Player.jpg.webp",
+    "set": "Other"
+  },
+  {
+    "id": "disney-lorcana-the-first-chapter-stitch-card-portfolio-lorcana-player",
+    "name": "The First Chapter Stitch Card Portfolio",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-The-First-Chapter-Stitch-Card-Portfolio-Lorcana-Player.jpg.webp",
+    "set": "The First Chapter"
+  },
+  {
+    "id": "disney-lorcana-the-first-chapter-the-queen-card-portfolio-lorcana-player",
+    "name": "The First Chapter The Queen Card Portfolio",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-The-First-Chapter-The-Queen-Card-Portfolio-Lorcana-Player.jpg.webp",
+    "set": "The First Chapter"
+  }
+]

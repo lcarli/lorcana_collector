@@ -1,11 +1,13 @@
 const TABS = [
   { id: "pins", label: "Pins", file: "data/pins.json", hasNumber: false },
+  { id: "playmats", label: "Playmats", file: "data/playmats.json", hasNumber: false },
   { id: "lore-counters", label: "Lore Counters", file: "data/lore-counters.json", hasNumber: false },
   { id: "promo-cards", label: "Cartas Promo", file: "data/promo-cards.json", hasNumber: true },
   { id: "sleeves", label: "Sleeves", file: "data/sleeves.json", hasNumber: false },
   { id: "stickers", label: "Stickers", file: "data/stickers.json", hasNumber: false },
+  { id: "deck-box", label: "Deck Box", file: "data/deck-box.json", hasNumber: false },
   { id: "boxes", label: "Boxes", file: "data/boxes.json", hasNumber: false },
-  { id: "book", label: "Book", file: "data/book.json", hasNumber: false },
+  { id: "portfolio", label: "Portfolio", file: "data/portfolio.json", hasNumber: false },
   { id: "others", label: "Outros", file: "data/others.json", hasNumber: false },
 ];
 
@@ -16,7 +18,14 @@ let owned = loadOwned();
 
 function loadOwned() {
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+    const data = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+    // Migrate old "book" tab data to "portfolio"
+    if (data.book && !data.portfolio) {
+      data.portfolio = data.book;
+      delete data.book;
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    }
+    return data;
   } catch {
     return {};
   }

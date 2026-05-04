@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "id": "disney-lorcana-fabled-card-sleeves-i2i-front-lorcana-player",
+    "name": "Fabled Card Sleeves I2I Front",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/05/Disney-Lorcana-Fabled-Card-Sleeves-I2I-Front-Lorcana-Player.jpg.webp",
+    "set": "Fabled"
+  },
+  {
+    "id": "disney-lorcana-fabled-card-sleeves-mulan-front-lorcana-player",
+    "name": "Fabled Card Sleeves Mulan Front",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/05/Disney-Lorcana-Fabled-Card-Sleeves-Mulan-Front-Lorcana-Player.jpg.webp",
+    "set": "Fabled"
+  },
+  {
+    "id": "disney-lorcana-reign-of-jafar-mickey-card-sleeve",
+    "name": "Reign of Jafar Mickey Card Sleeve",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/02/Disney-Lorcana-Reign-of-Jafar-Mickey-Card-Sleeve.jpg.webp",
+    "set": "Reign of Jafar"
+  },
+  {
+    "id": "disney-lorcana-reign-of-jafar-tinker-bell-card-sleeve",
+    "name": "Reign of Jafar Tinker Bell Card Sleeve",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/02/Disney-Lorcana-Reign-of-Jafar-Tinker-Bell-Card-Sleeve.jpg.webp",
+    "set": "Reign of Jafar"
+  },
+  {
+    "id": "disney-lorcana-archazia-s-island-card-sleeves-cinderella-sleeve-lorcana-player",
+    "name": "Archazia's Island Card Sleeves Cinderella - Sleeve",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/12/Disney-Lorcana-Archazias-Island-Card-Sleeves-Cinderella-Sleeve-Lorcana-Player.jpg.webp",
+    "set": "Archazia's Island"
+  },
+  {
+    "id": "disney-lorcana-archazia-s-island-card-sleeves-ursula-sleeve-lorcana-player",
+    "name": "Archazia's Island Card Sleeves Ursula - Sleeve",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/12/Disney-Lorcana-Archazias-Island-Card-Sleeves-Ursula-Sleeve-Lorcana-Player.jpg.webp",
+    "set": "Archazia's Island"
+  },
+  {
+    "id": "disney-lorcana-azurite-sea-scar-sleeves-lorcana-player",
+    "name": "Azurite Sea Scar Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Azurite-Sea-Scar-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "Azurite Sea"
+  },
+  {
+    "id": "disney-lorcana-azurite-sea-winnie-the-pooh-sleeves-lorcana-player",
+    "name": "Azurite Sea Winnie the Pooh Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Azurite-Sea-Winnie-the-Pooh-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "Azurite Sea"
+  },
+  {
+    "id": "disney-lorcana-set-5-shimmering-skies-aladdin-sleeves",
+    "name": "Set 5 Shimmering Skies - Aladdin Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/06/Disney-Lorcana-Set-5-Shimmering-Skies-Aladdin-Sleeves.jpg.webp",
+    "set": "Shimmering Skies"
+  },
+  {
+    "id": "disney-lorcana-set-5-shimmering-skies-cardback-sleeves",
+    "name": "Set 5 Shimmering Skies - Cardback Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/06/Disney-Lorcana-Set-5-Shimmering-Skies-Cardback-Sleeves.jpg.webp",
+    "set": "Shimmering Skies"
+  },
+  {
+    "id": "disney-lorcana-set-5-shimmering-skies-tiana-sleeves",
+    "name": "Set 5 Shimmering Skies - Tiana Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/06/Disney-Lorcana-Set-5-Shimmering-Skies-Tiana-Sleeves.jpg.webp",
+    "set": "Shimmering Skies"
+  },
+  {
+    "id": "disney-lorcana-ursula-s-return-genie-card-sleeves-lorcana-player",
+    "name": "Ursula's Return - Genie Card Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/03/Disney-Lorcana-Ursulas-Return-Genie-Card-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "Ursula's Return"
+  },
+  {
+    "id": "disney-lorcana-ursula-s-return-snow-white-sleeves-lorcana-player",
+    "name": "Ursula's Return - Snow White Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/03/Disney-Lorcana-Ursulas-Return-Snow-White-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "Ursula's Return"
+  },
+  {
+    "id": "disney-lorcana-into-the-inklands-robin-hood-sleeves-lorcana-player",
+    "name": "Into The Inklands Robin Hood Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Into-The-Inklands-Robin-Hood-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "Into the Inklands"
+  },
+  {
+    "id": "disney-lorcana-into-the-inklands-scrooge-card-sleeves-lorcana-player",
+    "name": "Into The Inklands Scrooge Card Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Into-The-Inklands-Scrooge-Card-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "Into the Inklands"
+  },
+  {
+    "id": "disney-lorcana-rise-of-the-floodborn-mulan-card-sleeves-lorcana-player",
+    "name": "Rise of the Floodborn Mulan Card Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Rise-of-the-Floodborn-Mulan-Card-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "Rise of the Floodborn"
+  },
+  {
+    "id": "disney-lorcana-rise-of-the-floodborn-sisu-card-sleeves-lorcana-player",
+    "name": "Rise of the Floodborn Sisu Card Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Rise-of-the-Floodborn-Sisu-Card-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "Rise of the Floodborn"
+  },
+  {
+    "id": "disney-lorcana-the-first-chapter-disney-lorcana-the-first-chapter-captain-hook-sleeves-lorcana-player-lorcana-player",
+    "name": "The First Chapter Disney Lorcana The First Chapter Captain Hook Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-The-First-Chapter-Disney-Lorcana-The-First-Chapter-Captain-Hook-Sleeves-Lorcana-Player-Lorcana-Player.jpg.webp",
+    "set": "The First Chapter"
+  },
+  {
+    "id": "disney-lorcana-the-first-chapter-elsa-sleeves-lorcana-player",
+    "name": "The First Chapter Elsa Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-The-First-Chapter-Elsa-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "The First Chapter"
+  },
+  {
+    "id": "disney-lorcana-the-first-chapter-mickey-sleeves-lorcana-player",
+    "name": "The First Chapter Mickey Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-The-First-Chapter-Mickey-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "The First Chapter"
+  },
+  {
+    "id": "lorcana-league-dalmatian-card-sleeves-lorcana-player",
+    "name": "Lorcana League Dalmatian Card Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Lorcana-League-Dalmatian-Card-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "Lorcana League"
+  },
+  {
+    "id": "disney-lorcana-championship-baymax-armored-companion-card-sleeves",
+    "name": "Championship - Baymax - Armored Companion Card Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/12/Disney-Lorcana-Championship-Baymax-Armored-Companion-Card-Sleeves.jpg.webp",
+    "set": "Challenge Events"
+  },
+  {
+    "id": "a-whole-new-world-world-championships-card-sleeves",
+    "name": "A Whole New World World Championships Card Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/03/Disney-Lorcana-A-Whole-New-World-World-Championships-Card-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "Challenge Events"
+  },
+  {
+    "id": "disney-lorcana-ursula-card-sleeves-lorcana-player",
+    "name": "Ursula Card Sleeves",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/12/Disney-Lorcana-Ursula-Card-Sleeves-Lorcana-Player.jpg.webp",
+    "set": "Other"
+  }
+]

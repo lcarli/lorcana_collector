@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": "disney-lorcana-fabled-hunny-wizard-sticker-lorcana-player",
+    "name": "Fabled Hunny Wizard Sticker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/08/Disney-Lorcana-Fabled-Hunny-Wizard-Sticker-Lorcana-Player.jpg.webp",
+    "set": "Fabled"
+  },
+  {
+    "id": "disney-lorcana-whispers-in-the-well-ariel-ethereal-voice-sticker-lorcana-player",
+    "name": "Whispers in the Well Ariel - Ethereal Voice Sticker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/11/Disney-Lorcana-Whispers-in-the-Well-Ariel-Ethereal-Voice-Sticker-Lorcana-Player.jpg.webp",
+    "set": "Whispers in the Well"
+  },
+  {
+    "id": "disney-lorcana-winterspell-tinker-bell-snowflake-collector-sticker-lorcana-player",
+    "name": "Winterspell Tinker Bell - Snowflake Collector Sticker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Winterspell-Tinker-Bell-Snowflake-Collector-Sticker-Lorcana-Player.jpg.webp",
+    "set": "Winterspell"
+  }
+]

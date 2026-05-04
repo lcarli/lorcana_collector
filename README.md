@@ -19,14 +19,16 @@ index.html       # página principal com tabs
 styles.css       # estilos
 app.js           # lógica de render + persistência local
 data/
-  pins.json            # 36 pins extraídos de lorcanaplayer.com
-  lore-counters.json
-  promo-cards.json     # itens com campo "number" para o número da carta
-  sleeves.json
-  stickers.json
-  boxes.json
-  book.json
-  others.json
+  pins.json            # 36 pins
+  playmats.json        # tapetes de jogo
+  lore-counters.json   # lore counters / lore trackers
+  promo-cards.json     # cartas promo (campo "number" para o número da carta)
+  sleeves.json         # card sleeves
+  stickers.json        # stickers
+  deck-box.json        # deck boxes / deck cases
+  boxes.json           # storage boxes
+  portfolio.json       # portfolios / folios
+  others.json          # notebook, premium deck box, magnetic case, collector's guide
 ```
 
 ### Formato de cada item
@@ -41,10 +43,14 @@ data/
 }
 ```
 
-## Build do `pins.json`
+## Build dos JSONs
 
-A lista inicial veio de [lorcanaplayer.com/disney-lorcana-pins](https://lorcanaplayer.com/disney-lorcana-pins/).
-O script `build_pins.py` (não versionado) regera o JSON a partir de uma cópia local da página.
+Os dados vêm de [lorcanaplayer.com](https://lorcanaplayer.com):
+
+- `build_pins.py` — gera `data/pins.json` a partir de `https://lorcanaplayer.com/disney-lorcana-pins/`.
+- `build_products.py` — gera as demais categorias a partir de `https://lorcanaplayer.com/products/`.
+
+Ambos os scripts (e suas páginas HTML baixadas localmente) ficam fora do versionamento via `.gitignore`.
 
 ## Deploy (GitHub Pages)
 

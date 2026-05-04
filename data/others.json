@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "disney-lorcana-notebook-lorcana-player",
+    "name": "Notebook",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Notebook-Lorcana-Player.jpg.webp",
+    "set": "Other"
+  },
+  {
+    "id": "disney-lorcana-official-collector-s-guide-sets-1-4-lorcana-player",
+    "name": "Official Collector's Guide Sets 1-4",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Official-Collectors-Guide-Sets-1-4-Lorcana-Player.jpg.webp",
+    "set": "Other"
+  },
+  {
+    "id": "disney-lorcana-official-collector-s-guide-sets-5-8-lorcana-player",
+    "name": "Official Collector's Guide Sets 5-8",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Official-Collectors-Guide-Sets-5-8-Lorcana-Player.jpg.webp",
+    "set": "Other"
+  },
+  {
+    "id": "disney-lorcana-premium-deck-box-lorcana-player-side-2",
+    "name": "Premium Deck Box",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/10/Disney-Lorcana-Premium-Deck-Box-Lorcana-Player-Side-2.jpg.webp",
+    "set": "Other"
+  },
+  {
+    "id": "disney-lorcana-magnetic-card-case-dark-navy-design-with-gold-lorcana-compass-logo-shown-open-and-closed",
+    "name": "Magnetic Card Case – dark navy design with gold Lorcana compass logo, shown open and closed",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/03/Disney-Lorcana-Magnetic-Card-Case.jpg.webp",
+    "set": "Promotional Event Items"
+  }
+]

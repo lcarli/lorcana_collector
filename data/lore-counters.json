@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "lorcana-league-lore-tracker",
+    "name": "Lorcana League Lore Tracker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2023/06/Lorcana-League-Lore-Tracker.jpg.webp",
+    "set": "Lorcana League"
+  },
+  {
+    "id": "disney-lorcana-rise-of-the-floodborn-lorcana-league-lore-tracker-lorcana-player",
+    "name": "Rise of the Floodborn Lorcana League Lore Tracker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Rise-of-the-Floodborn-Lorcana-League-Lore-Tracker-Lorcana-Player.jpg.webp",
+    "set": "Rise of the Floodborn"
+  },
+  {
+    "id": "disney-lorcana-into-the-inklands-lorcana-league-lore-tracker-lorcana-player",
+    "name": "Into the Inklands Lorcana League Lore Tracker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Into-the-Inklands-Lorcana-League-Lore-Tracker-Lorcana-Player.jpg.webp",
+    "set": "Into the Inklands"
+  },
+  {
+    "id": "disney-lorcana-ursula-s-return-lorcana-league-lore-counter-lorcana-player",
+    "name": "Ursula's Return Lorcana League Lore Counter",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Ursulas-Return-Lorcana-League-Lore-Counter-Lorcana-Player.jpg.webp",
+    "set": "Ursula's Return"
+  },
+  {
+    "id": "winnie-the-pooh-hunny-wizard-shimmering-skies-lorcana-league-lore-counter",
+    "name": "Winnie the Pooh - Hunny Wizard Shimmering Skies Lorcana League Lore Counter",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/08/Winnie-the-Pooh-Hunny-Wizard-Shimmering-Skies-Lorcana-League-Lore-Counter.jpg.webp",
+    "set": "Shimmering Skies"
+  },
+  {
+    "id": "disney-lorcana-archazia-s-island-belle-mechanic-extraordinaire-lore-counter-lorcana-player",
+    "name": "Archazia's Island Belle - Mechanic Extraordinaire lore counter",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/02/Disney-Lorcana-Archazias-Island-Belle-Mechanic-Extraordinaire-lore-counter-Lorcana-Player.png.webp",
+    "set": "Archazia's Island"
+  },
+  {
+    "id": "disney-lorcana-fabled-lore-counter-lorcana-player",
+    "name": "Fabled Lore Counter",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/08/Disney-Lorcana-Fabled-Lore-Counter-Lorcana-Player.jpg.webp",
+    "set": "Fabled"
+  },
+  {
+    "id": "disney-lorcana-reign-of-jafar-rapunzel-high-climber-lore-counter-lorcana-player",
+    "name": "Reign of Jafar Rapunzel High Climber Lore Counter",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/05/Disney-Lorcana-Reign-of-Jafar-Rapunzel-High-Climber-Lore-Counter-Lorcana-Player.jpg.webp",
+    "set": "Reign of Jafar"
+  },
+  {
+    "id": "disney-lorcana-whispers-in-the-well-spooky-sight-lore-counter-lorcana-player",
+    "name": "Whispers in the Well Spooky Sight! Lore Counter",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/11/Disney-Lorcana-Whispers-in-the-Well-Spooky-Sight-Lore-Counter-Lorcana-Player.jpg.webp",
+    "set": "Whispers in the Well"
+  },
+  {
+    "id": "disney-lorcana-winterspell-tiana-warm-and-happy-lore-counter-lorcana-player",
+    "name": "Winterspell Tiana - Warm and Happy Lore Counter",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Winterspell-Tiana-Warm-and-Happy-Lore-Counter-Lorcana-Player.jpg.webp",
+    "set": "Winterspell"
+  }
+]

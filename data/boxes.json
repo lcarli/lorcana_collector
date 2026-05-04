@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": "disney-lorcana-azurite-sea-storage-box-lorcana-player",
+    "name": "Azurite Sea Storage Box",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Azurite-Sea-Storage-Box-Lorcana-Player.jpg.webp",
+    "set": "Azurite Sea"
+  },
+  {
+    "id": "disney-lorcana-archazia-s-island-storage-box-lorcana-player",
+    "name": "Archazia's Island Storage Box",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Archazias-Island-Storage-Box-Lorcana-Player.jpg.webp",
+    "set": "Archazia's Island"
+  },
+  {
+    "id": "disney-lorcana-reign-of-jafar-storage-box-lorcana-player",
+    "name": "Reign of Jafar Storage Box",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Reign-of-Jafar-Storage-Box-Lorcana-Player.jpg.webp",
+    "set": "Reign of Jafar"
+  },
+  {
+    "id": "disney-lorcana-fabled-storage-box-lorcana-player",
+    "name": "Fabled Storage Box",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Fabled-Storage-Box-Lorcana-Player.jpg.webp",
+    "set": "Fabled"
+  },
+  {
+    "id": "disney-lorcana-whispers-in-the-well-storage-box-lorcana-player",
+    "name": "Whispers in the Well Storage Box",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Whispers-in-the-Well-Storage-Box-Lorcana-Player.jpg.webp",
+    "set": "Whispers in the Well"
+  },
+  {
+    "id": "disney-lorcana-winterspell-storage-box-lorcana-player",
+    "name": "Winterspell Storage Box",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Winterspell-Storage-Box-Lorcana-Player.jpg.webp",
+    "set": "Winterspell"
+  }
+]
