@@ -1,0 +1,126 @@
+:root {
+  --bg: #0f1024;
+  --bg-2: #181a3a;
+  --card: #1f2150;
+  --card-hover: #2a2d6a;
+  --owned: #1c4f2c;
+  --owned-border: #34c759;
+  --text: #f0f0fa;
+  --muted: #9aa0c8;
+  --accent: #ffd166;
+  --border: #2d3070;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(180deg, var(--bg), var(--bg-2));
+  color: var(--text);
+  min-height: 100vh;
+}
+header {
+  padding: 1.5rem 1rem 0.5rem;
+  text-align: center;
+}
+header h1 { margin: 0 0 0.25rem; font-size: 1.75rem; }
+header .sub { color: var(--muted); margin: 0 0 1rem; font-size: 0.9rem; }
+.actions {
+  display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;
+  align-items: center; max-width: 800px; margin: 0 auto;
+}
+.actions input[type="search"] {
+  flex: 1 1 220px; min-width: 180px;
+  padding: 0.5rem 0.75rem;
+  background: var(--card); color: var(--text);
+  border: 1px solid var(--border); border-radius: 6px;
+  font-size: 0.95rem;
+}
+.actions .filter { color: var(--muted); font-size: 0.9rem; user-select: none; }
+.actions button {
+  padding: 0.5rem 0.9rem;
+  background: var(--card); color: var(--text);
+  border: 1px solid var(--border); border-radius: 6px;
+  cursor: pointer; font-size: 0.9rem;
+}
+.actions button:hover { background: var(--card-hover); }
+
+.tabs {
+  display: flex; flex-wrap: wrap; gap: 0.25rem;
+  padding: 1rem; max-width: 1200px; margin: 0 auto;
+  border-bottom: 1px solid var(--border);
+}
+.tab {
+  background: transparent; color: var(--muted);
+  border: none; border-bottom: 2px solid transparent;
+  padding: 0.5rem 0.9rem; cursor: pointer; font-size: 0.95rem;
+}
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+main {
+  max-width: 1200px; margin: 0 auto; padding: 1rem;
+}
+.loading, .empty { color: var(--muted); text-align: center; padding: 2rem; }
+
+.progress {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 6px; padding: 0.75rem 1rem; margin-bottom: 1rem;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.progress .bar {
+  flex: 1; height: 8px; background: var(--bg);
+  border-radius: 4px; margin: 0 1rem; overflow: hidden;
+}
+.progress .bar > div { height: 100%; background: var(--owned-border); transition: width 0.3s; }
+
+.set-group { margin-bottom: 2rem; }
+.set-group h2 {
+  font-size: 1.1rem; color: var(--accent);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.4rem; margin: 1rem 0;
+}
+
+.grid {
+  display: grid; gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
+.card {
+  background: var(--card); border: 2px solid var(--border);
+  border-radius: 8px; padding: 0.75rem; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center;
+  transition: transform 0.15s, border-color 0.2s, background 0.2s;
+  position: relative;
+  user-select: none;
+}
+.card:hover { transform: translateY(-2px); background: var(--card-hover); }
+.card.owned { background: var(--owned); border-color: var(--owned-border); }
+.card.owned::after {
+  content: "✓"; position: absolute; top: 6px; right: 8px;
+  background: var(--owned-border); color: #fff;
+  width: 24px; height: 24px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: bold; font-size: 0.9rem;
+}
+.card img {
+  width: 100%; aspect-ratio: 1 / 1; object-fit: contain;
+  background: #fff; border-radius: 6px;
+}
+.card .name {
+  font-size: 0.85rem; margin-top: 0.5rem; text-align: center;
+  line-height: 1.25;
+}
+.card .number {
+  font-size: 0.75rem; color: var(--muted); margin-top: 0.2rem;
+}
+
+footer {
+  text-align: center; padding: 2rem 1rem; color: var(--muted);
+  font-size: 0.85rem;
+}
+footer a { color: var(--accent); }
+
+@media (max-width: 480px) {
+  header h1 { font-size: 1.4rem; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+}

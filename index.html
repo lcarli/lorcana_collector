@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lorcana Collection Tracker</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <h1>✨ Lorcana Collection Tracker</h1>
+  <p class="sub">Marque os itens que você já tem. Os dados ficam salvos no seu navegador.</p>
+  <div class="actions">
+    <input type="search" id="search" placeholder="Buscar..." />
+    <label class="filter"><input type="checkbox" id="onlyMissing" /> Só faltantes</label>
+    <button id="exportBtn" type="button">Exportar</button>
+    <button id="importBtn" type="button">Importar</button>
+    <input type="file" id="importFile" accept="application/json" hidden />
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="tab active" data-tab="pins">Pins</button>
+  <button class="tab" data-tab="lore-counters">Lore Counters</button>
+  <button class="tab" data-tab="promo-cards">Cartas Promo</button>
+  <button class="tab" data-tab="sleeves">Sleeves</button>
+  <button class="tab" data-tab="stickers">Stickers</button>
+  <button class="tab" data-tab="boxes">Boxes</button>
+  <button class="tab" data-tab="book">Book</button>
+  <button class="tab" data-tab="others">Outros</button>
+</nav>
+
+<main id="content">
+  <p class="loading">Carregando...</p>
+</main>
+
+<footer>
+  <p>Dados de pins via <a href="https://lorcanaplayer.com/disney-lorcana-pins/" target="_blank" rel="noopener">lorcanaplayer.com</a>. Fan project — não afiliado a Disney/Ravensburger.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

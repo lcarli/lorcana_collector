@@ -1,0 +1,6 @@
+build_pins.py
+extract_pins.py
+pins.html
+__pycache__/
+*.pyc
+.DS_Store
