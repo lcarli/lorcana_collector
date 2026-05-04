@@ -1,62 +1,142 @@
 [
   {
-    "id": "lorcana-league-lore-tracker",
-    "name": "Lorcana League Lore Tracker",
-    "image": "https://lorcanaplayer.com/wp-content/uploads/2023/06/Lorcana-League-Lore-Tracker.jpg.webp",
-    "set": "Lorcana League"
-  },
-  {
-    "id": "disney-lorcana-rise-of-the-floodborn-lorcana-league-lore-tracker-lorcana-player",
+    "id": "lorcana-league-disney-lorcana-rise-of-the-floodborn-lorcana-league-lore-tracker-lorcana-player",
     "name": "Rise of the Floodborn Lorcana League Lore Tracker",
-    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Rise-of-the-Floodborn-Lorcana-League-Lore-Tracker-Lorcana-Player.jpg.webp",
-    "set": "Rise of the Floodborn"
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Rise-of-the-Floodborn-Lorcana-League-Lore-Tracker-Lorcana-Player.jpg",
+    "set": "Rise of the Floodborn — Lorcana League",
+    "source": "Lorcana League"
   },
   {
-    "id": "disney-lorcana-into-the-inklands-lorcana-league-lore-tracker-lorcana-player",
+    "id": "illumineer-s-trove-disney-lorcana-into-the-inklands-illumineers-trove-lore-tracker-lorcana-player",
+    "name": "Into the Inklands Illumineers Trove Lore Tracker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Into-the-Inklands-Illumineers-Trove-Lore-Tracker-Lorcana-Player.jpg",
+    "set": "Into the Inklands — Illumineer's Trove",
+    "source": "Illumineer's Trove"
+  },
+  {
+    "id": "lorcana-league-disney-lorcana-into-the-inklands-lorcana-league-lore-tracker-lorcana-player",
     "name": "Into the Inklands Lorcana League Lore Tracker",
-    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Into-the-Inklands-Lorcana-League-Lore-Tracker-Lorcana-Player.jpg.webp",
-    "set": "Into the Inklands"
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Into-the-Inklands-Lorcana-League-Lore-Tracker-Lorcana-Player.jpg",
+    "set": "Into the Inklands — Lorcana League",
+    "source": "Lorcana League"
   },
   {
-    "id": "disney-lorcana-ursula-s-return-lorcana-league-lore-counter-lorcana-player",
+    "id": "illumineer-s-trove-disney-lorcana-ursulas-return-illumineers-trove-lore-tracker-lorcana-player",
+    "name": "Ursulas Return Illumineers Trove Lore Tracker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Ursulas-Return-Illumineers-Trove-Lore-Tracker-Lorcana-Player.jpg",
+    "set": "Ursula's Return — Illumineer's Trove",
+    "source": "Illumineer's Trove"
+  },
+  {
+    "id": "lorcana-league-disney-lorcana-ursula-s-return-lorcana-league-lore-counter-lorcana-player",
     "name": "Ursula's Return Lorcana League Lore Counter",
-    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Ursulas-Return-Lorcana-League-Lore-Counter-Lorcana-Player.jpg.webp",
-    "set": "Ursula's Return"
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Ursulas-Return-Lorcana-League-Lore-Counter-Lorcana-Player.jpg",
+    "set": "Ursula's Return — Lorcana League",
+    "source": "Lorcana League"
   },
   {
-    "id": "winnie-the-pooh-hunny-wizard-shimmering-skies-lorcana-league-lore-counter",
+    "id": "illumineer-s-trove-disney-lorcana-shimmering-skies-illumineers-trove-lore-tracker-lorcana-player",
+    "name": "Shimmering Skies Illumineers Trove Lore Tracker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Shimmering-Skies-Illumineers-Trove-Lore-Tracker-Lorcana-Player.jpg",
+    "set": "Shimmering Skies — Illumineer's Trove",
+    "source": "Illumineer's Trove"
+  },
+  {
+    "id": "lorcana-league-winnie-the-pooh-hunny-wizard-shimmering-skies-lorcana-league-lore-counter",
     "name": "Winnie the Pooh - Hunny Wizard Shimmering Skies Lorcana League Lore Counter",
-    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/08/Winnie-the-Pooh-Hunny-Wizard-Shimmering-Skies-Lorcana-League-Lore-Counter.jpg.webp",
-    "set": "Shimmering Skies"
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/08/Winnie-the-Pooh-Hunny-Wizard-Shimmering-Skies-Lorcana-League-Lore-Counter.jpg",
+    "set": "Shimmering Skies — Lorcana League",
+    "source": "Lorcana League"
   },
   {
-    "id": "disney-lorcana-archazia-s-island-belle-mechanic-extraordinaire-lore-counter-lorcana-player",
+    "id": "illumineer-s-trove-azurite-sea-illumineer-s-trove-lore-counter",
+    "name": "Azurite Sea Illumineer's Trove Lore Counter",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/05/Azurite-Sea-Illumineers-Trove-Lore-Counter.jpg",
+    "set": "Azurite Sea — Illumineer's Trove",
+    "source": "Illumineer's Trove"
+  },
+  {
+    "id": "lorcana-league-disney-lorcana-azurite-sea-lorcana-league-tinker-bell-giant-fairy-enchanted-pin",
+    "name": "Azurite Sea Lorcana League Tinker Bell – Giant Fairy – Enchanted Lore Counter",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/11/Disney-Lorcana-Azurite-Sea-Lorcana-League-Tinker-Bell-–-Giant-Fairy-–-Enchanted-Pin.jpg",
+    "set": "Azurite Sea — Lorcana League",
+    "source": "Lorcana League"
+  },
+  {
+    "id": "illumineer-s-trove-archazia-s-island-illumineer-s-trove-lore-counter",
+    "name": "Archazia's Island Illumineer's Trove Lore Counter",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/05/Archazias-Island-Illumineers-Trove-Lore-Counter-1.jpg",
+    "set": "Archazia's Island — Illumineer's Trove",
+    "source": "Illumineer's Trove"
+  },
+  {
+    "id": "lorcana-league-disney-lorcana-archazia-s-island-belle-mechanic-extraordinaire-lore-counter-lorcana-player",
     "name": "Archazia's Island Belle - Mechanic Extraordinaire lore counter",
-    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/02/Disney-Lorcana-Archazias-Island-Belle-Mechanic-Extraordinaire-lore-counter-Lorcana-Player.png.webp",
-    "set": "Archazia's Island"
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/02/Disney-Lorcana-Archazias-Island-Belle-Mechanic-Extraordinaire-lore-counter-Lorcana-Player.png",
+    "set": "Archazia's Island — Lorcana League",
+    "source": "Lorcana League"
   },
   {
-    "id": "disney-lorcana-fabled-lore-counter-lorcana-player",
-    "name": "Fabled Lore Counter",
-    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/08/Disney-Lorcana-Fabled-Lore-Counter-Lorcana-Player.jpg.webp",
-    "set": "Fabled"
+    "id": "illumineer-s-trove-disney-lorcana-reign-of-jafar-illumineer-s-trove-lore-counter-lorcana-player",
+    "name": "Reign of Jafar Illumineer's Trove Lore Counter",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/05/Disney-Lorcana-Reign-of-Jafar-Illumineers-Trove-Lore-Counter-Lorcana-Player.jpg",
+    "set": "Reign of Jafar — Illumineer's Trove",
+    "source": "Illumineer's Trove"
   },
   {
-    "id": "disney-lorcana-reign-of-jafar-rapunzel-high-climber-lore-counter-lorcana-player",
+    "id": "lorcana-league-disney-lorcana-reign-of-jafar-rapunzel-high-climber-lore-counter-lorcana-player",
     "name": "Reign of Jafar Rapunzel High Climber Lore Counter",
-    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/05/Disney-Lorcana-Reign-of-Jafar-Rapunzel-High-Climber-Lore-Counter-Lorcana-Player.jpg.webp",
-    "set": "Reign of Jafar"
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/05/Disney-Lorcana-Reign-of-Jafar-Rapunzel-High-Climber-Lore-Counter-Lorcana-Player.jpg",
+    "set": "Reign of Jafar — Lorcana League",
+    "source": "Lorcana League"
   },
   {
-    "id": "disney-lorcana-whispers-in-the-well-spooky-sight-lore-counter-lorcana-player",
+    "id": "illumineer-s-trove-disney-lorcana-fabled-i2i-lore-tracker-lorcana-player",
+    "name": "Fabled I2I Lore Tracker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/11/Disney-Lorcana-Fabled-I2I-Lore-Tracker-Lorcana-Player.jpg?t=1777917681",
+    "set": "Fabled — Illumineer's Trove",
+    "source": "Illumineer's Trove"
+  },
+  {
+    "id": "lorcana-league-disney-lorcana-fabled-lore-counter-lorcana-player",
+    "name": "Fabled Lore Counter",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/08/Disney-Lorcana-Fabled-Lore-Counter-Lorcana-Player.jpg",
+    "set": "Fabled — Lorcana League",
+    "source": "Lorcana League"
+  },
+  {
+    "id": "illumineer-s-trove-disney-lorcana-whispers-in-the-well-ariel-lore-tracker-lorcana-player",
+    "name": "Whispers in the Well Ariel Lore Tracker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/11/Disney-Lorcana-Whispers-in-the-Well-Ariel-Lore-Tracker-Lorcana-Player.jpg",
+    "set": "Whispers in the Well — Illumineer's Trove",
+    "source": "Illumineer's Trove"
+  },
+  {
+    "id": "lorcana-league-disney-lorcana-whispers-in-the-well-spooky-sight-lore-counter-lorcana-player",
     "name": "Whispers in the Well Spooky Sight! Lore Counter",
-    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/11/Disney-Lorcana-Whispers-in-the-Well-Spooky-Sight-Lore-Counter-Lorcana-Player.jpg.webp",
-    "set": "Whispers in the Well"
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/11/Disney-Lorcana-Whispers-in-the-Well-Spooky-Sight-Lore-Counter-Lorcana-Player.jpg",
+    "set": "Whispers in the Well — Lorcana League",
+    "source": "Lorcana League"
   },
   {
-    "id": "disney-lorcana-winterspell-tiana-warm-and-happy-lore-counter-lorcana-player",
+    "id": "illumineer-s-trove-disney-lorcana-winterspell-lore-tracker-lorcana-player",
+    "name": "Winterspell Lore Tracker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Winterspell-Lore-Tracker-Lorcana-Player.jpg",
+    "set": "Winterspell — Illumineer's Trove",
+    "source": "Illumineer's Trove"
+  },
+  {
+    "id": "lorcana-league-disney-lorcana-winterspell-tiana-warm-and-happy-lore-counter-lorcana-player",
     "name": "Winterspell Tiana - Warm and Happy Lore Counter",
-    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Winterspell-Tiana-Warm-and-Happy-Lore-Counter-Lorcana-Player.jpg.webp",
-    "set": "Winterspell"
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Winterspell-Tiana-Warm-and-Happy-Lore-Counter-Lorcana-Player.jpg",
+    "set": "Winterspell — Lorcana League",
+    "source": "Lorcana League"
+  },
+  {
+    "id": "lorcana-league-lorcana-league-lore-tracker",
+    "name": "Lorcana League Lore Tracker",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2023/06/Lorcana-League-Lore-Tracker.jpg",
+    "set": "Lorcana League",
+    "source": "Lorcana League"
   }
 ]

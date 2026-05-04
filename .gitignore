@@ -1,9 +1,11 @@
 build_pins.py
 build_products.py
+build_lore_counters.py
 extract_pins.py
 inspect_products.py
 pins.html
 products.html
+lore-counters.html
 __pycache__/
 *.pyc
 .DS_Store
