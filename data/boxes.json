@@ -34,5 +34,41 @@
     "name": "Winterspell Storage Box",
     "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Winterspell-Storage-Box-Lorcana-Player.jpg.webp",
     "set": "Winterspell"
+  },
+  {
+    "id": "disney-lorcana-the-first-chapter-gift-set",
+    "name": "The First Chapter Gift Set",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2023/06/Disney-Lorcana-The-First-Chapter-Gift-Set.jpg.webp",
+    "set": "The First Chapter"
+  },
+  {
+    "id": "disney-lorcana-into-the-inklands-gift-set",
+    "name": "Into the Inklands Gift Set",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2023/12/Disney-Lorcana-Into-the-Inklands-Gift-Set-Lorcana-Player.jpg.webp",
+    "set": "Into the Inklands"
+  },
+  {
+    "id": "disney-lorcana-azurite-sea-stitch-collectors-gift-set",
+    "name": "Azurite Sea Stitch Collector's Gift Set",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/09/Disney-Lorcana-Azurite-Sea-Stitch-Collectors-Gift-Set-Lorcana-Player.jpg.webp",
+    "set": "Azurite Sea"
+  },
+  {
+    "id": "disney-lorcana-archazias-island-gift-box",
+    "name": "Archazia's Island Gift Box",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2024/12/Disney-Lorcana-Archazias-Island-Gift-Box-Packaging-Right-Lorcana-Player.jpg.webp",
+    "set": "Archazia's Island"
+  },
+  {
+    "id": "disney-lorcana-fabled-elsa-gift-box",
+    "name": "Fabled Elsa Gift Box",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2025/05/Disney-Lorcana-Fabled-Elsa-Gift-Box-Side-LQ.jpg.webp",
+    "set": "Fabled"
+  },
+  {
+    "id": "disney-lorcana-winterspell-scrooge-mcduck-gift-box",
+    "name": "Winterspell Scrooge McDuck Gift Box",
+    "image": "https://lorcanaplayer.com/wp-content/uploads/2026/02/Disney-Lorcana-Winterspell-Gift-Box-Lorcana-Player.jpg.webp",
+    "set": "Winterspell"
   }
 ]
