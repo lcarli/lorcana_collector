@@ -1,11 +1,15 @@
 build_pins.py
 build_products.py
 build_lore_counters.py
+build_promo_cards.py
 extract_pins.py
 inspect_products.py
+inspect_promo.py
 pins.html
 products.html
 lore-counters.html
+allCards.json
+sets.json
 __pycache__/
 *.pyc
 .DS_Store

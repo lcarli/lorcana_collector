@@ -106,6 +106,11 @@ main {
   width: 100%; aspect-ratio: 1 / 1; object-fit: contain;
   background: #fff; border-radius: 6px;
 }
+/* Cards (Cartas Promo) have a portrait aspect — show full art */
+#content[data-tab="promo-cards"] .card img {
+  aspect-ratio: 5 / 7;
+  background: transparent;
+}
 .card .name {
   font-size: 0.85rem; margin-top: 0.5rem; text-align: center;
   line-height: 1.25;

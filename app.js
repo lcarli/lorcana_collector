@@ -84,6 +84,7 @@ function matchesFilter(item, query, onlyMissing, tabId) {
 async function renderTab() {
   const tab = TABS.find((t) => t.id === currentTab);
   const main = document.getElementById("content");
+  main.dataset.tab = tab.id;
   main.innerHTML = '<p class="loading">Carregando...</p>';
 
   const items = await loadTabData(tab);
