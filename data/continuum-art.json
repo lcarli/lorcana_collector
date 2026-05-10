@@ -1,0 +1,234 @@
+[
+  {
+    "id": "3-4a-dalmatian-puppy-tail-wagger",
+    "name": "Dalmatian Puppy - Tail Wagger",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set3/4a_515320f9bcecb1bc02487ee7ddea903c936dd83e.jpg",
+    "set": "Into the Inklands — Dalmatian Puppy Panorama",
+    "number": "4a/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "3-4b-dalmatian-puppy-tail-wagger",
+    "name": "Dalmatian Puppy - Tail Wagger",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set3/4b_401e05960ed49ce88e6e6dfc3742706269fd3ba7.jpg",
+    "set": "Into the Inklands — Dalmatian Puppy Panorama",
+    "number": "4b/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "3-4c-dalmatian-puppy-tail-wagger",
+    "name": "Dalmatian Puppy - Tail Wagger",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set3/4c_fc2b4f1d17aaafa16be7a54aeded7dbb51fcf76f.jpg",
+    "set": "Into the Inklands — Dalmatian Puppy Panorama",
+    "number": "4c/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "3-4d-dalmatian-puppy-tail-wagger",
+    "name": "Dalmatian Puppy - Tail Wagger",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set3/4d_0795153e1d9804147cb6a42a5ea7fd389e4de45f.jpg",
+    "set": "Into the Inklands — Dalmatian Puppy Panorama",
+    "number": "4d/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "3-4e-dalmatian-puppy-tail-wagger",
+    "name": "Dalmatian Puppy - Tail Wagger",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set3/4e_1082c1b8d0e245958209f18ebb3fb66cc5bc47a7.jpg",
+    "set": "Into the Inklands — Dalmatian Puppy Panorama",
+    "number": "4e/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "8-1-louie-one-cool-duck",
+    "name": "Louie - One Cool Duck",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/1_cc9920a269e2ac64924de1c0aee9d1a0814969d1.jpg",
+    "set": "Reign of Jafar — Huey, Dewey & Louie",
+    "number": "1/204",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "8-2-dewey-lovable-showoff",
+    "name": "Dewey - Lovable Showoff",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/2_aad08999a87d6db777ecba6bcc93d791c3ea7f25.jpg",
+    "set": "Reign of Jafar — Huey, Dewey & Louie",
+    "number": "2/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "8-3-huey-reliable-leader",
+    "name": "Huey - Reliable Leader",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/3_cb4079cae954402ddf091e9b7bdb288eb42db158.jpg",
+    "set": "Reign of Jafar — Huey, Dewey & Louie",
+    "number": "3/204",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "8-125-brutus-fearsome-crocodile",
+    "name": "Brutus - Fearsome Crocodile",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/125_8cd1999b818f23bba5fe456d743b65059401af4f.jpg",
+    "set": "Reign of Jafar — Brutus & Nero",
+    "number": "125/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "8-65-nero-fearsome-crocodile",
+    "name": "Nero - Fearsome Crocodile",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set8/65_6aaca27591fbdab8b5ad7911a309a8dc5a7bc748.jpg",
+    "set": "Reign of Jafar — Brutus & Nero",
+    "number": "65/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "11-113-iduna-alarmed-queen",
+    "name": "Iduna - Alarmed Queen",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set11/113_7e565ba5b76e6ec52d5b880b0a54425c0685c97e.jpg",
+    "set": "Winterspell — Iduna & Agnarr",
+    "number": "113/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "11-114-agnarr-king-of-arendelle",
+    "name": "Agnarr - King of Arendelle",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set11/114_ae155839a2e035cd78f363379043cb2c6f71347d.jpg",
+    "set": "Winterspell — Iduna & Agnarr",
+    "number": "114/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "11-137-roo-little-helper",
+    "name": "Roo - Little Helper",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set11/137_31e4190639abf014ce9010eadfffa18dfc4e2155.jpg",
+    "set": "Winterspell — Roo & Kanga",
+    "number": "137/204",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "11-138-kanga-peaceful-gatherer",
+    "name": "Kanga - Peaceful Gatherer",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set11/138_74bbf68868f8ea3418716b40e9fd7a277e78044b.jpg",
+    "set": "Winterspell — Roo & Kanga",
+    "number": "138/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "12-37-snow-white-merry-as-the-morning",
+    "name": "Snow White - Merry as the Morning",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/37_a909326a42207e99d71782f79d677d7b3091ff33.jpg",
+    "set": "Wilds Unknown — Snow White and the Seven Dwarfs",
+    "number": "37/204",
+    "rarity": "Legendary"
+  },
+  {
+    "id": "12-38-dopey-drawn-to-music",
+    "name": "Dopey - Drawn to Music",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/38_48ceee64b2603394229d5b73768f019622233506.jpg",
+    "set": "Wilds Unknown — Snow White and the Seven Dwarfs",
+    "number": "38/204",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "12-39-bashful-riding-the-rails",
+    "name": "Bashful - Riding the Rails",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/39_7ae3fdd963ba3005828414e1b3fb258408d63b36.jpg",
+    "set": "Wilds Unknown — Snow White and the Seven Dwarfs",
+    "number": "39/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "12-40-doc-taking-notes",
+    "name": "Doc - Taking Notes",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/40_f3ed74a780ea4b7a03f84d9842209c34381a0d5e.jpg",
+    "set": "Wilds Unknown — Snow White and the Seven Dwarfs",
+    "number": "40/204",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "12-41-grumpy-soreheaded-miner",
+    "name": "Grumpy - Soreheaded Miner",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/41_dd912d1da292180f814a8419cc2c9e61d858e58f.jpg",
+    "set": "Wilds Unknown — Snow White and the Seven Dwarfs",
+    "number": "41/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "12-42-sneezy-startlingly-loud",
+    "name": "Sneezy - Startlingly Loud",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/42_00b7b361c5622daf8a98739387f63e072ac256d6.jpg",
+    "set": "Wilds Unknown — Snow White and the Seven Dwarfs",
+    "number": "42/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "12-43-happy-joyful-adventurer",
+    "name": "Happy - Joyful Adventurer",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/43_c9fec1c4374474890b26076603fab1028f9023c3.jpg",
+    "set": "Wilds Unknown — Snow White and the Seven Dwarfs",
+    "number": "43/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "12-44-sleepy-deep-sleeper",
+    "name": "Sleepy - Deep Sleeper",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/44_ae867ecad3e615275fd2f0c71d2e9d813bce8082.jpg",
+    "set": "Wilds Unknown — Snow White and the Seven Dwarfs",
+    "number": "44/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "12-81-peter-pan-searching-far-and-wide",
+    "name": "Peter Pan - Searching Far and Wide",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/81_bdc962948195542ed524e338266c0ba248864496.jpg",
+    "set": "Wilds Unknown — Peter Pan & Pegasus",
+    "number": "81/204",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "12-106-pegasus-searching-high-and-low",
+    "name": "Pegasus - Searching High and Low",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/106_d212ad770591d18cc6e4710abc3950bbce17feaa.jpg",
+    "set": "Wilds Unknown — Peter Pan & Pegasus",
+    "number": "106/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "12-139-merryweather-feisty-fairy",
+    "name": "Merryweather - Feisty Fairy",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/139_dcd9dc327544ab77367015d4e01379f5c31495dc.jpg",
+    "set": "Wilds Unknown — Flora, Fauna & Merryweather",
+    "number": "139/204",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "12-140-fauna-good-natured-fairy",
+    "name": "Fauna - Good-Natured Fairy",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/140_2a6aa34198743f1a83c6fece9ed91b4a174203aa.jpg",
+    "set": "Wilds Unknown — Flora, Fauna & Merryweather",
+    "number": "140/204",
+    "rarity": "Common"
+  },
+  {
+    "id": "12-141-flora-strong-willed-fairy",
+    "name": "Flora - Strong-Willed Fairy",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/141_66e94a1fe266d63c6fb39be4c306bcced22b4bbf.jpg",
+    "set": "Wilds Unknown — Flora, Fauna & Merryweather",
+    "number": "141/204",
+    "rarity": "Rare"
+  },
+  {
+    "id": "12-184-omnidroid-v-9",
+    "name": "Omnidroid - V.9",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/184_cfcb63bc134d6cf994f2cbdf74f3ad87945b6265.jpg",
+    "set": "Wilds Unknown — Omnidroid & Mr. Incredible",
+    "number": "184/204",
+    "rarity": "Uncommon"
+  },
+  {
+    "id": "12-185-mr-incredible-taking-out-the-trash",
+    "name": "Mr. Incredible - Taking Out the Trash",
+    "image": "https://api.lorcana.ravensburger.com/images/en/set12/185_8e22b3002b5f6f837ac076edd29bc7ae6a0a156a.jpg",
+    "set": "Wilds Unknown — Omnidroid & Mr. Incredible",
+    "number": "185/204",
+    "rarity": "Uncommon"
+  }
+]

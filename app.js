@@ -3,6 +3,7 @@ const TABS = [
   { id: "playmats", label: "Playmats", file: "data/playmats.json", hasNumber: false },
   { id: "lore-counters", label: "Lore Counters", file: "data/lore-counters.json", hasNumber: false },
   { id: "promo-cards", label: "Cartas Promo", file: "data/promo-cards.json", hasNumber: true },
+  { id: "continuum-art", label: "Continuum Art", file: "data/continuum-art.json", hasNumber: true },
   { id: "sleeves", label: "Sleeves", file: "data/sleeves.json", hasNumber: false },
   { id: "stickers", label: "Stickers", file: "data/stickers.json", hasNumber: false },
   { id: "deck-box", label: "Deck Box", file: "data/deck-box.json", hasNumber: false },

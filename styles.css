@@ -106,10 +106,35 @@ main {
   width: 100%; aspect-ratio: 1 / 1; object-fit: contain;
   background: #fff; border-radius: 6px;
 }
-/* Cards (Cartas Promo) have a portrait aspect — show full art */
-#content[data-tab="promo-cards"] .card img {
+/* Cards (Cartas Promo / Continuum Art) have a portrait aspect — show full art */
+#content[data-tab="promo-cards"] .card img,
+#content[data-tab="continuum-art"] .card img {
   aspect-ratio: 5 / 7;
   background: transparent;
+}
+/* Continuum Art: render groups as edge-to-edge panoramas so the connecting art shows */
+#content[data-tab="continuum-art"] .grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: center;
+}
+#content[data-tab="continuum-art"] .card {
+  border-radius: 0;
+  border-width: 1px;
+  padding: 0;
+  flex: 0 0 clamp(110px, 14vw, 180px);
+  background: transparent;
+}
+#content[data-tab="continuum-art"] .card img {
+  border-radius: 0;
+}
+#content[data-tab="continuum-art"] .card .name {
+  padding: 0 4px 4px;
+  font-size: 0.75rem;
+}
+#content[data-tab="continuum-art"] .card .number {
+  padding-bottom: 4px;
 }
 .card .name {
   font-size: 0.85rem; margin-top: 0.5rem; text-align: center;
