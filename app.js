@@ -74,10 +74,20 @@ async function pullFromGist() {
     const r = await fetch(`https://api.github.com/gists/${syncCfg.gistId}`, {
       headers: gistHeaders(), cache: "no-store",
     });
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    if (!r.ok) {
+      let detail = "";
+      try { detail = (await r.json()).message || ""; } catch {}
+      if (r.status === 401) throw new Error(`401 não autorizado. Use um Personal Access Token CLASSIC com escopo 'gist'. Tokens fine-grained não funcionam com a API de Gists. ${detail}`);
+      if (r.status === 404) throw new Error(`404 não encontrado. Verifique o Gist ID e se o token tem escopo 'gist'. ${detail}`);
+      if (r.status === 403) throw new Error(`403 proibido. O token provavelmente é fine-grained — use um CLASSIC PAT com escopo 'gist'. ${detail}`);
+      throw new Error(`HTTP ${r.status}. ${detail}`);
+    }
     const gist = await r.json();
     const file = gist.files && gist.files[GIST_FILENAME];
-    if (!file) throw new Error(`Arquivo ${GIST_FILENAME} não encontrado no gist`);
+    if (!file) {
+      const have = Object.keys(gist.files || {}).join(", ") || "(nenhum)";
+      throw new Error(`Arquivo "${GIST_FILENAME}" não encontrado. Arquivos no gist: ${have}`);
+    }
     let content = file.content;
     if (file.truncated && file.raw_url) {
       const rr = await fetch(file.raw_url, { cache: "no-store" });
@@ -92,7 +102,8 @@ async function pullFromGist() {
     setSyncStatus("✓ Sincronizado", "ok");
     return true;
   } catch (e) {
-    setSyncStatus("⚠ Erro: " + e.message, "err");
+    setSyncStatus("⚠ " + e.message, "err");
+    console.error("Sync pull error:", e);
     return false;
   }
 }

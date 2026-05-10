@@ -34,8 +34,9 @@
           Copie o <strong>Gist ID</strong> da URL (parte depois do seu username).
         </li>
         <li>
-          Crie um <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Personal Access Token (fine-grained)</a>
-          com <strong>Account permissions → Gists: Read and write</strong>. Sem repo access.
+          Crie um <a href="https://github.com/settings/tokens/new?scopes=gist&description=Lorcana%20Collection%20Sync" target="_blank" rel="noopener"><strong>Personal Access Token (classic)</strong></a>
+          marcando apenas o escopo <code>gist</code>.
+          <br><em>⚠ Use o "classic" — a API de Gists do GitHub <strong>não funciona</strong> com tokens fine-grained.</em>
         </li>
         <li>Cole os dois abaixo. O token fica salvo só neste dispositivo.</li>
       </ol>
