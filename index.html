@@ -15,8 +15,44 @@
     <label class="filter"><input type="checkbox" id="onlyMissing" /> Só faltantes</label>
     <button id="exportBtn" type="button">Exportar</button>
     <button id="importBtn" type="button">Importar</button>
+    <button id="syncBtn" type="button" title="Sincronizar entre dispositivos">☁ Sync</button>
+    <span id="syncStatus" class="sync-status" aria-live="polite"></span>
     <input type="file" id="importFile" accept="application/json" hidden />
   </div>
+
+  <dialog id="syncDialog" class="sync-dialog">
+    <form method="dialog">
+      <h2>Sincronização entre dispositivos</h2>
+      <p class="sync-help">
+        Sua coleção é salva num <strong>GitHub Gist privado</strong>.
+        Use o mesmo Gist ID + Token em todos os seus dispositivos para sincronizar.
+      </p>
+      <ol class="sync-steps">
+        <li>
+          Crie um <a href="https://gist.github.com/" target="_blank" rel="noopener">gist privado</a>
+          com um arquivo chamado <code>lorcana-collection.json</code> e conteúdo <code>{}</code>.
+          Copie o <strong>Gist ID</strong> da URL (parte depois do seu username).
+        </li>
+        <li>
+          Crie um <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Personal Access Token (fine-grained)</a>
+          com <strong>Account permissions → Gists: Read and write</strong>. Sem repo access.
+        </li>
+        <li>Cole os dois abaixo. O token fica salvo só neste dispositivo.</li>
+      </ol>
+      <label>Gist ID
+        <input type="text" id="gistIdInput" placeholder="ex: a1b2c3d4e5f6..." autocomplete="off" />
+      </label>
+      <label>GitHub Token
+        <input type="password" id="gistTokenInput" placeholder="github_pat_..." autocomplete="off" />
+      </label>
+      <div class="sync-actions">
+        <button type="button" id="syncSaveBtn">Conectar e puxar</button>
+        <button type="button" id="syncDisconnectBtn">Desconectar</button>
+        <button type="button" id="syncCloseBtn">Fechar</button>
+      </div>
+      <p class="sync-status-line" id="syncDialogStatus"></p>
+    </form>
+  </dialog>
 </header>
 
 <nav class="tabs" id="tabs">

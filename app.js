@@ -34,7 +34,120 @@ function loadOwned() {
 
 function saveOwned() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(owned));
+  scheduleRemotePush();
 }
+
+// =================== Cloud Sync (GitHub Gist) ===================
+
+const SYNC_KEY = "lorcana_collection_sync_v1";
+const GIST_FILENAME = "lorcana-collection.json";
+let syncCfg = loadSyncCfg();
+let pushTimer = null;
+let pushing = false;
+let pushQueued = false;
+
+function loadSyncCfg() {
+  try { return JSON.parse(localStorage.getItem(SYNC_KEY)) || {}; }
+  catch { return {}; }
+}
+function saveSyncCfg() { localStorage.setItem(SYNC_KEY, JSON.stringify(syncCfg)); }
+
+function setSyncStatus(text, kind = "") {
+  const el = document.getElementById("syncStatus");
+  if (!el) return;
+  el.textContent = text;
+  el.className = "sync-status " + kind;
+}
+
+function gistHeaders() {
+  return {
+    "Authorization": `Bearer ${syncCfg.token}`,
+    "Accept": "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+  };
+}
+
+async function pullFromGist() {
+  if (!syncCfg.gistId || !syncCfg.token) return;
+  setSyncStatus("Sincronizando...", "pending");
+  try {
+    const r = await fetch(`https://api.github.com/gists/${syncCfg.gistId}`, {
+      headers: gistHeaders(), cache: "no-store",
+    });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const gist = await r.json();
+    const file = gist.files && gist.files[GIST_FILENAME];
+    if (!file) throw new Error(`Arquivo ${GIST_FILENAME} não encontrado no gist`);
+    let content = file.content;
+    if (file.truncated && file.raw_url) {
+      const rr = await fetch(file.raw_url, { cache: "no-store" });
+      content = await rr.text();
+    }
+    const remote = content.trim() ? JSON.parse(content) : {};
+    if (typeof remote !== "object" || Array.isArray(remote)) throw new Error("Formato inválido no gist");
+    owned = remote;
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(owned));
+    syncCfg.lastSync = new Date().toISOString();
+    saveSyncCfg();
+    setSyncStatus("✓ Sincronizado", "ok");
+    return true;
+  } catch (e) {
+    setSyncStatus("⚠ Erro: " + e.message, "err");
+    return false;
+  }
+}
+
+async function pushToGist() {
+  if (!syncCfg.gistId || !syncCfg.token) return;
+  if (pushing) { pushQueued = true; return; }
+  pushing = true;
+  setSyncStatus("Salvando...", "pending");
+  try {
+    const r = await fetch(`https://api.github.com/gists/${syncCfg.gistId}`, {
+      method: "PATCH",
+      headers: { ...gistHeaders(), "Content-Type": "application/json" },
+      body: JSON.stringify({
+        files: { [GIST_FILENAME]: { content: JSON.stringify(owned, null, 2) } },
+      }),
+    });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    syncCfg.lastSync = new Date().toISOString();
+    saveSyncCfg();
+    setSyncStatus("✓ Sincronizado", "ok");
+  } catch (e) {
+    setSyncStatus("⚠ Erro: " + e.message, "err");
+  } finally {
+    pushing = false;
+    if (pushQueued) { pushQueued = false; pushToGist(); }
+  }
+}
+
+function scheduleRemotePush() {
+  if (!syncCfg.gistId || !syncCfg.token) return;
+  setSyncStatus("Alterado (salvando em 2s)...", "pending");
+  clearTimeout(pushTimer);
+  pushTimer = setTimeout(pushToGist, 2000);
+}
+
+// Flush pending push before leaving the page (best-effort)
+window.addEventListener("beforeunload", () => {
+  if (pushTimer) {
+    clearTimeout(pushTimer);
+    if (navigator.sendBeacon && syncCfg.gistId && syncCfg.token) {
+      // sendBeacon doesn't allow custom auth headers reliably; just attempt sync fetch
+      try {
+        fetch(`https://api.github.com/gists/${syncCfg.gistId}`, {
+          method: "PATCH",
+          headers: { ...gistHeaders(), "Content-Type": "application/json" },
+          body: JSON.stringify({
+            files: { [GIST_FILENAME]: { content: JSON.stringify(owned, null, 2) } },
+          }),
+          keepalive: true,
+        });
+      } catch {}
+    }
+  }
+});
 
 function isOwned(tabId, itemId) {
   return !!(owned[tabId] && owned[tabId][itemId]);
@@ -207,3 +320,54 @@ document.getElementById("importFile").addEventListener("change", async (e) => {
 });
 
 renderTab();
+
+// =================== Sync UI wiring ===================
+const syncDialog = document.getElementById("syncDialog");
+const gistIdInput = document.getElementById("gistIdInput");
+const gistTokenInput = document.getElementById("gistTokenInput");
+const dialogStatus = document.getElementById("syncDialogStatus");
+
+function setDialogStatus(msg, kind = "") {
+  dialogStatus.textContent = msg;
+  dialogStatus.style.color = kind === "ok" ? "var(--owned-border)"
+    : kind === "err" ? "#ff6b6b" : "var(--muted)";
+}
+
+document.getElementById("syncBtn").addEventListener("click", () => {
+  gistIdInput.value = syncCfg.gistId || "";
+  gistTokenInput.value = syncCfg.token || "";
+  setDialogStatus(syncCfg.lastSync ? `Última sincronização: ${new Date(syncCfg.lastSync).toLocaleString()}` : "");
+  if (typeof syncDialog.showModal === "function") syncDialog.showModal();
+  else syncDialog.setAttribute("open", "");
+});
+
+document.getElementById("syncCloseBtn").addEventListener("click", () => syncDialog.close());
+
+document.getElementById("syncSaveBtn").addEventListener("click", async () => {
+  const gistId = gistIdInput.value.trim();
+  const token = gistTokenInput.value.trim();
+  if (!gistId || !token) { setDialogStatus("Preencha Gist ID e Token.", "err"); return; }
+  syncCfg = { gistId, token };
+  saveSyncCfg();
+  setDialogStatus("Conectando e puxando do gist...", "");
+  const ok = await pullFromGist();
+  if (ok) {
+    setDialogStatus("✓ Conectado. Coleção atualizada com a versão da nuvem.", "ok");
+    renderTab();
+  } else {
+    setDialogStatus("Falha ao conectar. Verifique Gist ID, Token e o nome do arquivo (lorcana-collection.json).", "err");
+  }
+});
+
+document.getElementById("syncDisconnectBtn").addEventListener("click", () => {
+  syncCfg = {};
+  localStorage.removeItem(SYNC_KEY);
+  setDialogStatus("Desconectado deste dispositivo. A coleção local foi mantida.", "ok");
+  setSyncStatus("");
+});
+
+// Initial pull on page load if configured
+if (syncCfg.gistId && syncCfg.token) {
+  setSyncStatus("Sincronizando...", "pending");
+  pullFromGist().then((ok) => { if (ok) renderTab(); });
+}

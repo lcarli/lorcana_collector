@@ -45,6 +45,40 @@ header .sub { color: var(--muted); margin: 0 0 1rem; font-size: 0.9rem; }
 }
 .actions button:hover { background: var(--card-hover); }
 
+.sync-status {
+  font-size: 0.85rem; color: var(--muted); min-width: 120px;
+}
+.sync-status.ok { color: var(--owned-border); }
+.sync-status.err { color: #ff6b6b; }
+.sync-status.pending { color: var(--accent); }
+
+.sync-dialog {
+  background: var(--bg-2); color: var(--text);
+  border: 1px solid var(--border); border-radius: 10px;
+  max-width: 520px; width: 92vw; padding: 1.25rem 1.5rem;
+}
+.sync-dialog::backdrop { background: rgba(0,0,0,0.6); }
+.sync-dialog h2 { margin: 0 0 0.5rem; color: var(--accent); font-size: 1.2rem; }
+.sync-dialog .sync-help { color: var(--muted); font-size: 0.9rem; margin: 0 0 0.75rem; }
+.sync-dialog .sync-steps { padding-left: 1.2rem; font-size: 0.85rem; color: var(--muted); }
+.sync-dialog .sync-steps li { margin-bottom: 0.5rem; }
+.sync-dialog code { background: var(--card); padding: 1px 5px; border-radius: 3px; font-size: 0.8rem; }
+.sync-dialog a { color: var(--accent); }
+.sync-dialog label { display: block; margin: 0.5rem 0; font-size: 0.85rem; color: var(--muted); }
+.sync-dialog input[type="text"], .sync-dialog input[type="password"] {
+  width: 100%; padding: 0.5rem; margin-top: 0.2rem;
+  background: var(--card); color: var(--text);
+  border: 1px solid var(--border); border-radius: 5px; font-size: 0.9rem;
+}
+.sync-dialog .sync-actions { display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap; }
+.sync-dialog .sync-actions button {
+  padding: 0.5rem 0.9rem; background: var(--card); color: var(--text);
+  border: 1px solid var(--border); border-radius: 6px; cursor: pointer; font-size: 0.9rem;
+}
+.sync-dialog .sync-actions button:hover { background: var(--card-hover); }
+.sync-dialog #syncSaveBtn { background: var(--owned); border-color: var(--owned-border); }
+.sync-dialog .sync-status-line { margin: 0.75rem 0 0; min-height: 1em; font-size: 0.85rem; }
+
 .tabs {
   display: flex; flex-wrap: wrap; gap: 0.25rem;
   padding: 1rem; max-width: 1200px; margin: 0 auto;
