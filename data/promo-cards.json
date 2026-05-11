@@ -279,6 +279,15 @@
     "rarity": "Promo"
   },
   {
+    "id": "30-p1-stitch-rock-star",
+    "name": "Stitch - Rock Star",
+    "number": "30/P1",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo1/30_ed547d4fb9a33a4fdc9a80769300601c4cf3bc71.jpg",
+    "set": "Into the Inklands — Promo (P1)",
+    "source": "Promo (P1)",
+    "rarity": "Enchanted Promo"
+  },
+  {
     "id": "39-p1-scrooge-mcduck-uncle-moneybags",
     "name": "Scrooge McDuck - Uncle Moneybags",
     "number": "39/P1",
@@ -322,6 +331,15 @@
     "set": "Ursula's Return — Promo (P1)",
     "source": "Promo (P1)",
     "rarity": "Promo"
+  },
+  {
+    "id": "38-p1-ursula-sea-witch-queen",
+    "name": "Ursula - Sea Witch Queen",
+    "number": "38/P1",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo1/38_d4c1872d4be701b074bf36b812b6a7d913cd0744.jpg",
+    "set": "Ursula's Return — Promo (P1)",
+    "source": "Promo (P1)",
+    "rarity": "Enchanted Promo"
   },
   {
     "id": "40-p1-flotsam-jetsam-entangling-eels",
@@ -387,6 +405,15 @@
     "rarity": "Promo"
   },
   {
+    "id": "7-p2-mirabel-madrigal-family-gatherer",
+    "name": "Mirabel Madrigal - Family Gatherer",
+    "number": "7/P2",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/7_d6ea7a19e87c073a3aaaabc38701dc5a7caf7b32.jpg",
+    "set": "Shimmering Skies — Promo (P2)",
+    "source": "Promo (P2)",
+    "rarity": "Enchanted Promo"
+  },
+  {
     "id": "8-p2-stitch-alien-buccaneer",
     "name": "Stitch - Alien Buccaneer",
     "number": "8/P2",
@@ -439,6 +466,15 @@
     "set": "Azurite Sea — Promo (P2)",
     "source": "Promo (P2)",
     "rarity": "Promo"
+  },
+  {
+    "id": "14-p2-scar-heartless-hunter",
+    "name": "Scar - Heartless Hunter",
+    "number": "14/P2",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/14_15f1960bd5fb485730fa81bb28d5a28a1b9b850c.jpg",
+    "set": "Azurite Sea — Promo (P2)",
+    "source": "Promo (P2)",
+    "rarity": "Enchanted Promo"
   },
   {
     "id": "18-p2-mickey-mouse-pirate-captain",
@@ -513,6 +549,15 @@
     "rarity": "Promo"
   },
   {
+    "id": "24b-p2-hiro-hamada-armor-designer",
+    "name": "Hiro Hamada - Armor Designer",
+    "number": "24B/P2",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/24B_0665cc15db892a07de98b8cfefc0015a762e79d5.jpg",
+    "set": "Archazia's Island — Promo (P2)",
+    "source": "Promo (P2)",
+    "rarity": "Enchanted Promo"
+  },
+  {
     "id": "26-p2-moana-adventurer-of-land-and-sea",
     "name": "Moana - Adventurer of Land and Sea",
     "number": "26/P2",
@@ -583,6 +628,15 @@
     "set": "Reign of Jafar — Promo (P2)",
     "source": "Promo (P2)",
     "rarity": "Promo"
+  },
+  {
+    "id": "33-p2-jafar-high-sultan-of-lorcana",
+    "name": "Jafar - High Sultan of Lorcana",
+    "number": "33/P2",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo2/33_80408dcb4df9ebd6472a4d048375ee8dd46a9344.jpg",
+    "set": "Reign of Jafar — Promo (P2)",
+    "source": "Promo (P2)",
+    "rarity": "Enchanted Promo"
   },
   {
     "id": "34-p2-archimedes-resourceful-owl",
@@ -855,6 +909,15 @@
     "rarity": "Promo"
   },
   {
+    "id": "24-p3-daisy-duck-paranormal-investigator",
+    "name": "Daisy Duck - Paranormal Investigator",
+    "number": "24/P3",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo3/24_a83fa383af201bad1d84858cdfdcceaa2b19187d.jpg",
+    "set": "Whispers in the Well — Promo (P3)",
+    "source": "Promo (P3)",
+    "rarity": "Enchanted Promo"
+  },
+  {
     "id": "25-p3-goofy-emerald-champion",
     "name": "Goofy - Emerald Champion",
     "number": "25/P3",
@@ -943,6 +1006,15 @@
     "set": "Winterspell — Promo (P3)",
     "source": "Promo (P3)",
     "rarity": "Promo"
+  },
+  {
+    "id": "34-p3-tinker-bell-snowflake-collector",
+    "name": "Tinker Bell - Snowflake Collector",
+    "number": "34/P3",
+    "image": "https://api.lorcana.ravensburger.com/images/en/promo3/34_f8a4d6956f737fee8f55bf273a90fd9101e79c9d.jpg",
+    "set": "Winterspell — Promo (P3)",
+    "source": "Promo (P3)",
+    "rarity": "Enchanted Promo"
   },
   {
     "id": "35-p3-stitch-high-badness-level",
