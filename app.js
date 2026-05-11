@@ -355,18 +355,30 @@ document.getElementById("syncBtn").addEventListener("click", () => {
 document.getElementById("syncCloseBtn").addEventListener("click", () => syncDialog.close());
 
 document.getElementById("syncSaveBtn").addEventListener("click", async () => {
-  const gistId = gistIdInput.value.trim();
+  let gistId = gistIdInput.value.trim();
   const token = gistTokenInput.value.trim();
+  // Accept full gist URL and extract just the hex ID
+  const m = gistId.match(/([a-f0-9]{20,})/i);
+  if (m) gistId = m[1];
   if (!gistId || !token) { setDialogStatus("Preencha Gist ID e Token.", "err"); return; }
+  if (!/^[a-f0-9]{20,}$/i.test(gistId)) {
+    setDialogStatus("Gist ID inválido. Deve ser um hex como 'fba452c49babc3ba8b45edcb7c141671' (a parte final da URL do gist).", "err");
+    return;
+  }
+  if (!/^(ghp_|github_pat_|gho_|ghu_|ghs_|ghr_)/.test(token)) {
+    setDialogStatus("Token não parece válido. Tokens classic começam com 'ghp_' — gere em github.com/settings/tokens/new?scopes=gist marcando o escopo 'gist'.", "err");
+    return;
+  }
   syncCfg = { gistId, token };
   saveSyncCfg();
+  gistIdInput.value = gistId;
   setDialogStatus("Conectando e puxando do gist...", "");
   const ok = await pullFromGist();
   if (ok) {
     setDialogStatus("✓ Conectado. Coleção atualizada com a versão da nuvem.", "ok");
     renderTab();
   } else {
-    setDialogStatus("Falha ao conectar. Verifique Gist ID, Token e o nome do arquivo (lorcana-collection.json).", "err");
+    setDialogStatus("Falha ao conectar. Veja a mensagem no topo (ao lado do botão Sync) para detalhes.", "err");
   }
 });
 
